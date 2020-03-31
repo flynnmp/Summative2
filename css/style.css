@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+Nav {
+    height: 46px;
+    background-color: #070707;
+    
+}
+
+/* Typography */
+h1{
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #070707;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    color: #070707;
+    letter-spacing: 1.3px;
+}
+
+h3{
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #070707;
+    letter-spacing: 1.3px;
+
+}
+
+h4{
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #070707;
+    letter-spacing: 0.9px;
+
+}
+h5{
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+h6 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #070707;
+    letter-spacing: 0.9px;
+
+}
