@@ -89,7 +89,7 @@ Nav {
 
 #menuarrow {
     font-size: 12px;
-     margin-bottom: 
+    padding-bottom:
 }
 
 
@@ -168,6 +168,11 @@ Nav {
 }
 #card3h {
     margin-top: 35px;
+    margin-left: 20px;
+}
+
+#arrow{
+    font-size: 15px;
 }
 
 #section4 {
@@ -223,6 +228,7 @@ Nav {
 }
 #card4h {
     margin-top: 35px;
+    margin-left: 20px;
 }
 
 #name {
@@ -250,4 +256,14 @@ Nav {
 
 #card5a {
     padding-top: 15px;
+}
+
+
+
+@media screen and (min-width:640px) {
+    
+    .card {
+         width: 250px;
+    }
+
 }
