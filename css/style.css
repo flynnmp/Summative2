@@ -2,54 +2,71 @@
     box-sizing: border-box;
 }
 
-Nav {
-    height: 46px;
-    background-color: #070707;
-    
+
+html {
+    font-size: 100%;
+    color: #070707;
+    font-style: normal;
+    text-align: center;
+}
+
+body {}
+
+/* links */
+
+a:link {
+    text-decoration: none;
+    color: inherit
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit
 }
 
 /* Typography */
-h1{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
     font-family: futura-pt-bold, sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 50px;
-    color: #070707;
     letter-spacing: 2px;
 }
 
 h2 {
     font-family: mr-eaves-xl-modern, sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 26px;
-    color: #070707;
     letter-spacing: 1.3px;
 }
 
-h3{
+h3 {
     font-family: mr-eaves-xl-modern, sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 18px;
-    color: #070707;
     letter-spacing: 1.3px;
-
 }
 
-h4{
+h4 {
     font-family: mr-eaves-xl-modern, sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 16px;
-    color: #070707;
     letter-spacing: 0.9px;
-
 }
-h5{
+
+h5 {
     font-family: futura-pt-bold, sans-serif;
     font-weight: 700;
-    font-style: normal;
     font-size: 24px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -58,9 +75,33 @@ h5{
 h6 {
     font-family: mr-eaves-xl-modern, sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 14px;
-    color: #070707;
     letter-spacing: 0.9px;
-
 }
+
+/* navigation */
+
+Nav {
+    height: 46px;
+    background-color: #070707;
+    color: #FFFFFF;
+}
+
+/* main */
+
+#card1 {
+    height: 25px;
+    background-color: #FFA6B7;
+    color: #FDE5E5;
+    padding: 3px;
+}
+
+#card2a {
+    margin-top: 15px;
+}
+
+.logo {
+    width: 200px;
+}
+
+#card2b
