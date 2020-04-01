@@ -113,52 +113,129 @@ Nav {
 }
 
 #card3a {
-    width: 185px;
+    width: 1px;
     height: 237px;
-    background-color: blue;
+    background-color: white;
+    margin-right: 16px;
 }
 
 #card3b {
     width: 185px;
     height: 237px;
     background-color: aqua;
+    margin-right: 16px;
 }
 
 #card3c {
     width: 185px;
     height: 237px;
     background-color: rebeccapurple;
+    margin-right: 16px;
 }
 
 #card3d {
     width: 185px;
     height: 237px;
     background-color: red;
+    margin-right: 16px;
 }
 
 #card3e {
     width: 185px;
     height: 237px;
     background-color: green;
+    margin-right: 16px;
 }
 
-#card3f {
+#card3f{
+    width: 185px;
+    height: 237px;
+    background-color: green;
+}
+
+#card3g {
+    width: 1px;
+    height: 237px;
+    background-color: white;
+    margin-left: 16px;
+}
+#card3h {
     margin-top: 35px;
+}
+
+#section4 {
+    margin-top: 35px;
+}
+
+#card4a {
+    width: 1px;
+    height: 237px;
+    background-color: white;
+    margin-right: 16px;
+}
+
+#card4b {
+    width: 185px;
+    height: 237px;
+    background-color: aqua;
+    margin-right: 16px;
+}
+
+#card4c {
+    width: 185px;
+    height: 237px;
+    background-color: rebeccapurple;
+    margin-right: 16px;
+}
+
+#card4d {
+    width: 185px;
+    height: 237px;
+    background-color: red;
+    margin-right: 16px;
+}
+
+#card4e {
+    width: 185px;
+    height: 237px;
+    background-color: green;
+    margin-right: 16px;
+}
+
+#card4f{
+    width: 185px;
+    height: 237px;
+    background-color: green;
+}
+
+#card4g {
+    width: 1px;
+    height: 237px;
+    background-color: white;
+    margin-left: 16px;
+}
+#card4h {
+    margin-top: 35px;
+}
+
+#name {
+    padding-top: 130px;
+    transform: rotate(-8deg);
+    margin-left: -12px;
 }
 
 .scrolling-wrapper {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
   transform: rotate(8deg);
-  justify-content: center;
+  justify-content: space-between;
 }
-
 
 .card {
     flex: 0 0 auto;
-    margin-left: 8px;
-    margin-right: 8px;
   }
 
-
+#section5 {
+    
+}
