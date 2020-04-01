@@ -10,7 +10,9 @@ html {
     text-align: center;
 }
 
-body {}
+body {
+     margin: 0;
+}
 
 /* links */
 
@@ -85,6 +87,7 @@ Nav {
     height: 46px;
     background-color: #070707;
     color: #FFFFFF;
+
 }
 
 #menuarrow {
@@ -92,6 +95,14 @@ Nav {
     padding-bottom:
 }
 
+li {
+    list-style-type: none;
+    display: block;
+}
+
+ul{
+    margin: 0;
+}
 
 
 /* main */
@@ -154,7 +165,7 @@ Nav {
     margin-right: 16px;
 }
 
-#card3f{
+#card3f {
     width: 185px;
     height: 237px;
     background-color: green;
@@ -166,12 +177,13 @@ Nav {
     background-color: white;
     margin-left: 16px;
 }
+
 #card3h {
     margin-top: 35px;
     margin-left: 20px;
 }
 
-#arrow{
+#arrow {
     font-size: 15px;
 }
 
@@ -214,7 +226,7 @@ Nav {
     margin-right: 16px;
 }
 
-#card4f{
+#card4f {
     width: 185px;
     height: 237px;
     background-color: green;
@@ -226,6 +238,7 @@ Nav {
     background-color: white;
     margin-left: 16px;
 }
+
 #card4h {
     margin-top: 35px;
     margin-left: 20px;
@@ -238,16 +251,16 @@ Nav {
 }
 
 .scrolling-wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  transform: rotate(8deg);
-  justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    transform: rotate(8deg);
+    justify-content: space-between;
 }
 
 .card {
     flex: 0 0 auto;
-  }
+}
 
 #section5 {
     margin-top: 35px;
@@ -260,10 +273,48 @@ Nav {
 
 
 
-@media screen and (min-width:640px) {
-    
-    .card {
-         width: 250px;
+@media screen and (min-width:768px) {
+
+    #card3b,
+    #card3c,
+    #card3d,
+    #card3e,
+    #card3f,
+    #card4b,
+    #card4c,
+    #card4d,
+    #card4e,
+    #card4f {
+        width: 265.4px;
+        height: 340px;
     }
 
+}
+
+
+@media screen and (min-width:1300px) {
+    
+    li {
+         display: flex;
+        
+         
+    }
+    
+    #topmenu {
+        visibility: hidden;
+    }
+    
+    #card3b,
+    #card3c,
+    #card3d,
+    #card3e,
+    #card3f,
+    #card4b,
+    #card4c,
+    #card4d,
+    #card4e,
+    #card4f {
+        width: 636px;
+        height: 358px;
+    }
 }
