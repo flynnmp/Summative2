@@ -104,4 +104,47 @@ Nav {
     width: 200px;
 }
 
-#card2b
+#card2b {
+    height: 45px;
+}
+
+#card3a {
+    width: 185px;
+    height: 237px;
+    background-color: blue;
+}
+
+#card3b {
+    width: 185px;
+    height: 237px;
+    background-color: aqua;
+}
+
+#card3c {
+    width: 185px;
+    height: 237px;
+    background-color: rebeccapurple;
+}
+
+#card3d {
+    width: 185px;
+    height: 237px;
+    background-color: red;
+}
+
+#card3e {
+    width: 185px;
+    height: 237px;
+    background-color: green;
+}
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+}
+.card {
+    flex: 0 0 auto;
+  }
+
