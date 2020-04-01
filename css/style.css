@@ -87,6 +87,13 @@ Nav {
     color: #FFFFFF;
 }
 
+#menuarrow {
+    font-size: 12px;
+     margin-bottom: 
+}
+
+
+
 /* main */
 
 #card1 {
@@ -237,5 +244,10 @@ Nav {
   }
 
 #section5 {
-    
+    margin-top: 35px;
+    background-color: #FDE5E5;
+}
+
+#card5a {
+    padding-top: 15px;
 }
