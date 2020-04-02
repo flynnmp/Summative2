@@ -97,6 +97,33 @@ Nav {
     letter-spacing: 0.9px;
 }
 
+#navmenu {
+    display: none;
+}
+
+#navmenu li {
+    list-style: none;
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+    margin-left: 0px;
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*dropdown menu*/
+
+#menubutton {
+    margin-top: 15px;
 }
 
 #menuarrow {
@@ -104,17 +131,35 @@ Nav {
 
 }
 
-li {
-    list-style: none;
-    display: block;
-    margin: 0;
-    margin-left: 0px;
+#dropmenu {
+
+    display: none;
+    background-color: #191919;
+    position: absolute;
+    width: 324px;
+    height: calc(100vh - 46px);
+    color: #FFFFFF;
+    top: 45px;
+
 
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+.displayMenu {
+    display: block !important;
+}
+
+
+#dropmenu ul {
+    margin-top: 80px;
+}
+
+#dropmenu li {
+    display: block;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    padding-bottom: 40px;
 }
 
 
@@ -302,13 +347,17 @@ main {
     h5 {
         font-size: 40px;
     }
-    
+
     .logo {
         width: 280px;
     }
 
     #name {
         padding-top: 180px;
+    }
+
+    #dropmenu {
+        height: 450px;
     }
 
     #card3b,
@@ -354,18 +403,21 @@ main {
     nav {
         height: 50px;
     }
-    li {
-        display: inline;
-        padding: 40px;
 
+
+    #navmenu {
+        display: contents;
     }
 
-    #topmenu {
+    #menubutton {
         visibility: hidden;
+        margin-top: 0px;
     }
+
 
     #tickets {
-        border: 2px solid #FFA6B7;;
+        border: 2px solid #FFA6B7;
+        ;
         color: #FFA6B7;
         padding-bottom: 5px;
         padding-top: 5px;
