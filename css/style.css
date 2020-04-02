@@ -396,6 +396,10 @@ main {
     .image2 {
         display: none;
     }
+    
+    #frank {
+        margin-top: -272px;
+    }
 }
 
 
