@@ -12,6 +12,8 @@ html {
 
 body {
     margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 /* links */
@@ -83,7 +85,7 @@ h6 {
 
 /* navigation */
 
-Nav {
+nav {
     height: 46px;
     background-color: #191919;
     color: #FFFFFF;
@@ -95,6 +97,7 @@ Nav {
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.9px;
+    z-index: 50;
 }
 
 #navmenu {
@@ -136,11 +139,11 @@ ul {
     display: none;
     background-color: #191919;
     position: absolute;
-    width: 324px;
+    width: 100%;
     height: calc(100vh - 46px);
     color: #FFFFFF;
     top: 45px;
-
+    z-index: 100;
 
 }
 
@@ -177,6 +180,7 @@ main {
     padding: 3px;
     position: fixed;
     width: 100%;
+    z-index: 50;
 }
 
 #section2 {
@@ -323,6 +327,7 @@ main {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    overflow-y: hidden;
     transform: rotate(8deg);
     justify-content: space-between;
 }
@@ -340,7 +345,15 @@ main {
     padding-top: 15px;
 }
 
+.image1 {
+    height: 237px;
+    margin-top: -157px;
+}
 
+.image2 {
+    display: none;
+    margin-top: -227px;
+}
 
 @media screen and (min-width:768px) {
 
@@ -374,6 +387,15 @@ main {
         height: 340px;
     }
 
+    .image1 {
+        width: 265.4px;
+        height: 340px;
+        margin-top: -226px;
+    }
+
+    .image2 {
+        display: none;
+    }
 }
 
 
@@ -450,6 +472,15 @@ main {
     }
 
     #name {
-        padding-top: 150px;
+        padding-top: 170px;
+        letter-spacing: 1px;
+    }
+
+    .image1 {
+        display: none;
+    }
+
+    .image2 {
+        display: block;
     }
 }
