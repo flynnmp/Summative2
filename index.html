@@ -13,22 +13,33 @@
 </head>
 
 <body>
-    <nav>
-        <ul id="topmenu">
-                <li>WELCOME <i class="fas fa-chevron-down" id="menuarrow"></i> </li>
+
+    <div id="dropmenu">
+        <ul>
+            <li><a href="#">SET TIMES</a></li>
+            <li><a href="#">LINEUP</a></li>
+            <li><a href="#">ART</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">TICKETS</a></li>
         </ul>
-        <ul id="dropdownmenu">
-                <li>SET TIMES</li>
-                <li>LINEUP</li>
-                <li>ART</li>
-                <li>FAQ</li>
-                <li>CONTACT</li>
-                <li id="tickets">TICKETS</li>
+    </div>
+
+
+    <nav>
+        <li id="menubutton" onclick="toggleMenu()" >WELCOME <i class="fas fa-chevron-down" id="menuarrow"></i> </li>
+        <ul id="navmenu">
+            <li>SET TIMES</li>
+            <li>LINEUP</li>
+            <li>ART</li>
+            <li>FAQ</li>
+            <li>CONTACT</li>
+            <li id="tickets">TICKETS</li>
         </ul>
     </nav>
-        
+
     <main>
-         <section id="section1">
+        <section id="section1">
             <div id="card1">
                 <a href="#">
                     <h4>BUY TICKETS</h4>
@@ -109,7 +120,9 @@
             </div>
         </section>
     </main>
-    <footer>
 
-    </footer>
-</body></html>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
