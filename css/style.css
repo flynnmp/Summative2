@@ -5,13 +5,13 @@
 
 html {
     font-size: 100%;
-    color: #070707;
+    color: #191919;
     font-style: normal;
     text-align: center;
 }
 
 body {
-     margin: 0;
+    margin: 0;
 }
 
 /* links */
@@ -85,33 +85,57 @@ h6 {
 
 Nav {
     height: 46px;
-    background-color: #070707;
+    background-color: #191919;
     color: #FFFFFF;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+}
 
 }
 
 #menuarrow {
     font-size: 12px;
-    padding-bottom:
+
 }
 
 li {
-    list-style-type: none;
+    list-style: none;
     display: block;
+    margin: 0;
+    margin-left: 0px;
+
 }
 
-ul{
+ul {
     margin: 0;
+    padding: 0;
 }
 
 
 /* main */
+
+main {
+    width: 100%;
+    margin-top: 45px;
+}
 
 #card1 {
     height: 25px;
     background-color: #FFA6B7;
     color: #FDE5E5;
     padding: 3px;
+    position: fixed;
+    width: 100%;
+}
+
+#section2 {
+    padding-top: 25px;
 }
 
 #card2a {
@@ -275,6 +299,18 @@ ul{
 
 @media screen and (min-width:768px) {
 
+    h5 {
+        font-size: 40px;
+    }
+    
+    .logo {
+        width: 280px;
+    }
+
+    #name {
+        padding-top: 180px;
+    }
+
     #card3b,
     #card3c,
     #card3d,
@@ -293,17 +329,60 @@ ul{
 
 
 @media screen and (min-width:1300px) {
-    
-    li {
-         display: flex;
-        
-         
+
+    h2 {
+        font-size: 28px;
     }
-    
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+
+    h5 {
+        font-size: 50px;
+    }
+
+    nav {
+        height: 50px;
+    }
+    li {
+        display: inline;
+        padding: 40px;
+
+    }
+
     #topmenu {
         visibility: hidden;
     }
-    
+
+    #tickets {
+        border: 2px solid #FFA6B7;;
+        color: #FFA6B7;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    #section1 {
+        visibility: hidden;
+    }
+
+    #section2 {
+        padding-top: 15px;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
     #card3b,
     #card3c,
     #card3d,
@@ -316,5 +395,9 @@ ul{
     #card4f {
         width: 636px;
         height: 358px;
+    }
+
+    #name {
+        padding-top: 150px;
     }
 }
