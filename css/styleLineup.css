@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 100%;
+    color: #191919;
+    font-style: normal;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* links */
+
+a:link {
+    text-decoration: none;
+    color: inherit
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 1.3px;
+}
+
+h3 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+
+h4 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+}
+
+h5 {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+h6 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.9px;
+}
+
+/* navigation */
+
+nav {
+    height: 46px;
+    background-color: #191919;
+    color: #FFFFFF;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    z-index: 50;
+}
+
+#navmenu {
+    display: none;
+}
+
+#navmenu li {
+    list-style: none;
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+    margin-left: 0px;
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*dropdown menu*/
+
+#menubutton {
+    margin-top: 15px;
+}
+
+#menuarrow {
+    font-size: 12px;
+
+}
+
+#dropmenu {
+
+    display: none;
+    background-color: #191919;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 46px);
+    color: #FFFFFF;
+    top: 45px;
+    z-index: 100;
+
+}
+
+.displayMenu {
+    display: block !important;
+}
+
+
+#dropmenu ul {
+    margin-top: 80px;
+}
+
+#dropmenu li {
+    display: block;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    padding-bottom: 40px;
+}
+
+
+/* main */
+
+main {
+    width: 100%;
+    margin-top: 45px;
+}
+
+#card1 {
+    height: 25px;
+    background-color: #FFA6B7;
+    color: #FDE5E5;
+    padding: 3px;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+#section2 {
+    padding-top: 25px;
+}
+
+#card2a {
+    margin-top: 15px;
+}
+
+.logo {
+    width: 150px;
+}
+
+#h1desktop {
+        display: none;
+    }
+
+#section3 {
+    margin-top: 35px;
+}
+
+#section4,
+#section5,
+#section6 {
+    margin-top: 16px;
+}
+
+#card3a,
+#card4a,
+#card5a,
+#card6a {
+    width: 1px;
+    height: 237px;
+    background-color: white;
+    margin-right: 16px;
+}
+
+    #card3b,
+    #card3c,
+    #card3d,
+    #card3e,
+    #card4b,
+    #card4c,
+    #card4d,
+    #card4e,
+    #card5b,
+    #card5c,
+    #card5d,
+    #card5e,
+    #card6b,
+    #card6c,
+    #card6d,
+    #card6e {
+    width: 185px;
+    height: 237px;
+    background-color: aqua;
+    margin-right: 16px;
+}
+
+
+#card3g,
+#card4g,
+#card5g,
+#card6g {
+    width: 1px;
+    height: 237px;
+    background-color: white;
+}
+
+#name {
+    padding-top: 130px;
+    transform: rotate(-8deg);
+    margin-left: -12px;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    transform: rotate(8deg);
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 auto;
+}
+
+#section7 {
+    margin-top: 35px;
+    background-color: #FDE5E5;
+}
+
+#card7a {
+    padding-top: 15px;
+}
+
+.image1 {
+    height: 237px;
+    margin-top: -157px;
+}
+
+.image2 {
+    display: none;
+    margin-top: -227px;
+}
+
+@media screen and (min-width:768px) {
+
+    h5 {
+        font-size: 40px;
+    }
+
+
+    #name {
+        padding-top: 180px;
+    }
+
+    #dropmenu {
+        height: 450px;
+    }
+
+    #card3b,
+    #card3c,
+    #card3d,
+    #card3e,
+    #card4b,
+    #card4c,
+    #card4d,
+    #card4e,
+    #card5b,
+    #card5c,
+    #card5d,
+    #card5e,
+    #card6b,
+    #card6c,
+    #card6d,
+    #card6e {
+        width: 265.4px;
+        height: 340px;
+    }
+
+    .image1 {
+        width: 265.4px;
+        height: 340px;
+        margin-top: -226px;
+    }
+
+    .image2 {
+        display: none;
+    }
+    
+    #frank {
+        margin-top: -272px;
+    }
+}
+
+
+@media screen and (min-width:1300px) {
+
+    h1 {
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+
+    h5 {
+        font-size: 50px;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+
+    #navmenu {
+        display: contents;
+    }
+
+    #menubutton {
+        visibility: hidden;
+        margin-top: 0px;
+    }
+
+
+    #tickets {
+        border: 2px solid #FFA6B7;
+        ;
+        color: #FFA6B7;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    #section1 {
+        visibility: hidden;
+    }
+    
+    #h1desktop {
+        display: contents;
+    }
+    
+    #h1mobile {
+        display: none;
+    }
+
+    #section2 {
+        padding-top: 15px;
+    }
+    
+    #card2a {
+    margin-top: 0px;
+}
+    
+
+    .logo {
+        width: 150px;
+    }
+
+    #section3 {
+    margin-top: 45px;
+}
+    
+    #card3b,
+    #card3c,
+    #card3d,
+    #card3e,
+    #card4b,
+    #card4c,
+    #card4d,
+    #card4e,
+    #card5b,
+    #card5c,
+    #card5d,
+    #card5e,
+    #card6b,
+    #card6c,
+    #card6d,
+    #card6e {
+        width: 636px;
+        height: 358px;
+    }
+
+    #name {
+        padding-top: 170px;
+        letter-spacing: 1px;
+    }
+
+    .image1 {
+        display: none;
+    }
+
+    .image2 {
+        display: block;
+    }
+    
+    #section7 {
+    margin-top: 40px;
+}
