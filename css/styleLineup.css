@@ -273,6 +273,7 @@ main {
 #section7 {
     margin-top: 35px;
     background-color: #FDE5E5;
+    padding-bottom: 30px;
 }
 
 #card7a {
@@ -337,6 +338,12 @@ main {
     #frank {
         margin-top: -272px;
     }
+    
+    #section7 {
+        margin-top: 80px;
+        padding-bottom: 40px;
+    }
+
 }
 
 
@@ -453,5 +460,6 @@ main {
     }
     
     #section7 {
-    margin-top: 40px;
+    margin-top: 100px;
+    padding-bottom: 50px;
 }
