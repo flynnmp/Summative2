@@ -205,11 +205,21 @@ main {
     display: none;
 }
 
+#card2c {
+    width: 390px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#intro {
+    font-size: 14px;
+}
 
 #question {
     width: 360px;
     height: 40px;
     margin: 0 auto;
+    margin-top: 11px;
     background-color: #FDE5E5;
     border: none;
     padding: 10px;
@@ -220,7 +230,14 @@ main {
 
 }
 
-#content {
+#content1,
+#content2,
+#content3,
+#content4,
+#content5,
+#content6,
+#content7,
+#content8 {
     width: 360px;
     margin: 0 auto;
     background-color: #FDE5E5;
@@ -229,7 +246,14 @@ main {
     display: none;
 }
 
-.expandContent {
+.expandContent1,
+.expandContent2,
+.expandContent3,
+.expandContent4,
+.expandContent5,
+.expandContent6,
+.expandContent7,
+.expandContent8 {
     display: block !important;
 }
 
@@ -328,5 +352,23 @@ main {
     .logo {
         width: 150px;
     }
+    
+    #card2c {
+    width: 450px;
+    }
 
+    #content1,
+    #content2,
+    #content3,
+    #content4,
+    #content5,
+    #content6,
+    #content7,
+    #content8 {
+        width: 710px;
+    }
+
+    #question {
+        width: 710px;
+    }
 }
