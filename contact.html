@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styleContact.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dpx2llb.css">
+    <script src="https://kit.fontawesome.com/9987dd449b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="dropmenu">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SET TIMES</a></li>
+            <li><a href="#">LINEUP</a></li>
+            <li><a href="#">ART</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">TICKETS</a></li>
+        </ul>
+    </div>
+
+
+    <nav>
+        <li id="menubutton" onclick="toggleMenu()">CONTACT <i class="fas fa-chevron-down" id="menuarrow"></i> </li>
+        <ul id="navmenu">
+            <li>HOME</li>
+            <li>SET TIMES</li>
+            <li>LINEUP</li>
+            <li>ART</li>
+            <li>FAQ</li>
+            <li id="tickets">TICKETS</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1">
+            <div id="card1">
+                <a href="#">
+                    <h4>BUY TICKETS</h4>
+                </a>
+            </div>
+        </section>
+
+        <section id="section2">
+            <div id="card2a"><img class="logo" src="images/logo3.png" alt="logo"></div>
+            <div id="card2b">
+                <h1 id="h1desktop">SAY HELLO</h1>
+                <h1 id="h1mobile">SAY HELLO</h1>
+            </div>
+            <div id="card2c">
+                <h6>Get in touch with us. Just fill in the form below</h6>
+            </div>
+        </section>
+
+        <form name="contactForm" method="post" action="contact.php">
+            <fieldset name="names">
+                <div id="namefeilds">
+                    <div class="first">
+                        <label for="first_name">
+                            <h2>FIRST NAME*</h2>
+                        </label>
+                        <input id="first" type="text" name="first_name" maxlength="50" size="30">
+                    </div>
+                    <div class="last">
+                        <label for="last_name">
+                            <h2>LAST NAME*</h2>
+                        </label>
+                        <input id="last" type="text" name="last_name" maxlength="50" size="30">
+                    </div>
+                </div>
+                <label for="email">
+                    <h2>EMAIL*</h2>
+                </label>
+                <input type="text" name="email" maxlength="80" size="30">
+            </fieldset>
+            <textarea name="comments" maxlength="1000" cols="25" rows="12" placeholder="Type your message here"></textarea>
+            <input id="submitButton" type="submit" value="SUBMIT">
+        </form>
+        
+        <section id="section7">
+            <div id="card7a">
+                <h2>CONNECT WITH US</h2>
+            </div>
+            <div id="card7a">
+                <h2><i class="fab fa-facebook-f"></i> <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i> <i class="fab fa-spotify"></i> </h2>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/main.js"></script>
+</body></html>
