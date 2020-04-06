@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 100%;
+    color: #191919;
+    font-style: normal;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* links */
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+#tickets:hover {
+    background-color: #FFA6B7;
+    color: #FDE5E5;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 1.3px;
+}
+
+h3 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+
+h4 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+}
+
+h5 {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+h6 {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.9px;
+}
+
+/* navigation */
+
+nav {
+    height: 46px;
+    background-color: #191919;
+    color: #FFFFFF;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    z-index: 50;
+}
+
+#navmenu {
+    display: none;
+}
+
+#navmenu li {
+    list-style: none;
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0;
+    margin-left: 0px;
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*dropdown menu*/
+
+#menubutton {
+    margin-top: 15px;
+}
+
+#menuarrow {
+    font-size: 12px;
+
+}
+
+#dropmenu {
+
+    display: none;
+    background-color: #191919;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 46px);
+    color: #FFFFFF;
+    top: 45px;
+    z-index: 100;
+
+}
+
+.displayMenu {
+    display: block !important;
+}
+
+
+#dropmenu ul {
+    margin-top: 80px;
+}
+
+#dropmenu li {
+    display: block;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.9px;
+    padding-bottom: 40px;
+}
+
+
+/* main */
+
+main {
+    width: 100%;
+    margin-top: 45px;
+}
+
+#card1 {
+    height: 25px;
+    background-color: #FFA6B7;
+    color: #FDE5E5;
+    padding: 3px;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+#section2 {
+    padding-top: 25px;
+    margin-bottom: 40px;
+}
+
+#card2a {
+    margin-top: 15px;
+}
+
+.logo {
+    width: 150px;
+}
+
+#h1desktop {
+    display: none;
+}
+
+
+#question {
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #FDE5E5;
+    border: none;
+    padding: 10px;
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+
+}
+
+#content {
+    width: 360px;
+    margin: 0 auto;
+    background-color: #FDE5E5;
+    padding: 15px;
+    text-align: left;
+    display: none;
+}
+
+.expandContent {
+    display: block !important;
+}
+
+
+
+#section7 {
+    margin-top: 35px;
+    background-color: #FDE5E5;
+    padding-bottom: 30px;
+}
+
+#card7a {
+    padding-top: 15px;
+}
+
+
+
+@media screen and (min-width:768px) {
+
+    h5 {
+        font-size: 40px;
+    }
+
+    #dropmenu {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+
+    h5 {
+        font-size: 50px;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+
+    #navmenu {
+        display: contents;
+    }
+
+    #menubutton {
+        visibility: hidden;
+        margin-top: 0px;
+    }
+
+
+    #tickets {
+        border: 2px solid #FFA6B7;
+        ;
+        color: #FFA6B7;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    #section1 {
+        visibility: hidden;
+    }
+
+    #h1desktop {
+        display: contents;
+    }
+
+    #h1mobile {
+        display: none;
+    }
+
+    #section2 {
+        padding-top: 15px;
+    }
+
+    #card2a {
+        margin-top: 0px;
+    }
+
+
+    .logo {
+        width: 150px;
+    }
+
+}
