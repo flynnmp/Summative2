@@ -20,12 +20,17 @@ body {
 
 a:link {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 a:visited {
     text-decoration: none;
-    color: inherit
+    color: inherit;
+}
+
+#tickets:hover {
+    background-color: #FFA6B7;
+    color: #FDE5E5;
 }
 
 /* Typography */
@@ -196,8 +201,8 @@ main {
 }
 
 #h1desktop {
-        display: none;
-    }
+    display: none;
+}
 
 #section3 {
     margin-top: 35px;
@@ -219,22 +224,22 @@ main {
     margin-right: 16px;
 }
 
-    #card3b,
-    #card3c,
-    #card3d,
-    #card3e,
-    #card4b,
-    #card4c,
-    #card4d,
-    #card4e,
-    #card5b,
-    #card5c,
-    #card5d,
-    #card5e,
-    #card6b,
-    #card6c,
-    #card6d,
-    #card6e {
+#card3b,
+#card3c,
+#card3d,
+#card3e,
+#card4b,
+#card4c,
+#card4d,
+#card4e,
+#card5b,
+#card5c,
+#card5d,
+#card5e,
+#card6b,
+#card6c,
+#card6d,
+#card6e {
     width: 185px;
     height: 237px;
     background-color: aqua;
@@ -334,11 +339,11 @@ main {
     .image2 {
         display: none;
     }
-    
+
     #frank {
         margin-top: -272px;
     }
-    
+
     #section7 {
         margin-top: 80px;
         padding-bottom: 40px;
@@ -352,7 +357,7 @@ main {
     h1 {
         font-size: 60px;
     }
-    
+
     h2 {
         font-size: 28px;
     }
@@ -400,11 +405,11 @@ main {
     #section1 {
         visibility: hidden;
     }
-    
+
     #h1desktop {
         display: contents;
     }
-    
+
     #h1mobile {
         display: none;
     }
@@ -412,20 +417,20 @@ main {
     #section2 {
         padding-top: 15px;
     }
-    
+
     #card2a {
-    margin-top: 0px;
-}
-    
+        margin-top: 0px;
+    }
+
 
     .logo {
         width: 150px;
     }
 
     #section3 {
-    margin-top: 45px;
-}
-    
+        margin-top: 45px;
+    }
+
     #card3b,
     #card3c,
     #card3d,
@@ -458,8 +463,9 @@ main {
     .image2 {
         display: block;
     }
-    
+
     #section7 {
-    margin-top: 100px;
-    padding-bottom: 50px;
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
 }
