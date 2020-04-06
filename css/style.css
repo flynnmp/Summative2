@@ -364,6 +364,17 @@ main {
         margin-top: -184px;
     }
 
+#section7 {
+    padding-top: 20px;
+    background-color: #FDE5E5;
+    padding-bottom: 30px;
+}
+
+#card7a {
+    padding-top: 15px;
+}
+
+
 @media screen and (min-width:768px) {
 
     h5 {
