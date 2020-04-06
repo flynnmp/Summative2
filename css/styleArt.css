@@ -20,12 +20,17 @@ body {
 
 a:link {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 a:visited {
     text-decoration: none;
-    color: inherit
+    color: inherit;
+}
+
+#tickets:hover {
+    background-color: #FFA6B7;
+    color: #FDE5E5;
 }
 
 /* Typography */
@@ -290,6 +295,10 @@ main {
     margin-top: -227px;
 }
 
+#vesica {
+        margin-top: -184px;
+    }
+
 @media screen and (min-width:768px) {
 
     h5 {
@@ -335,7 +344,11 @@ main {
         display: none;
     }
 
-    #frank {
+    #vesica {
+        margin-top: -272px;
+    }
+    
+    #shades {
         margin-top: -272px;
     }
     
