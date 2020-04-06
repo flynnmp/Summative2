@@ -20,12 +20,17 @@ body {
 
 a:link {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 a:visited {
     text-decoration: none;
-    color: inherit
+    color: inherit;
+}
+
+#tickets:hover {
+    background-color: #FFA6B7;
+    color: #FDE5E5;
 }
 
 /* Typography */
